@@ -6,7 +6,7 @@ def main():
     circle_pi = math.pi # DO NOT MODIFY, this line of code is assigning the variable 'circle_pi' equal to Pi ~3.14
 
     # TODO: In terminal, print Welcome to the geometric shape area calculator!
-    print('Welcome to the area shape calculator!')
+    print('Welcome to the geometric shape area calculator!')
     # User Options
     Circle = 1
     Rectangle = 2
@@ -25,11 +25,11 @@ def main():
         # Calculate the area of a circle
 
         # TODO: Assign a new variable named 'radius' and ask for the user's input for the radius of the circle.
-        radius = input('What is the radius of the circle?"')
+        radius = input('What is the radius of the circle?')
         # TODO: Convert 'radius' to float.
         radius = float(radius)
         # TODO: Assign a new variable named 'area' and implement the logic to calculate the area of a circle.
-        area = (circle_pi) * (radius * radius)
+        area = circle_pi * radius * radius
         # HINT 1 : The formula to find area of a circle: 'circle_pi' times radius squared.  
         # Hint 2 : circle_pi is a variable that has been assigned on Line 9 and equals Pi in math.  
 
@@ -64,8 +64,8 @@ def main():
         print(f"The area is: {area:.2f} square units.") # DO NOT MODIFY
 
     # TODO: Print a statement explaining each step required to find and complete your technical assignments.  Be specific. 
-#print('In Canvas navigate to modules and open the Live Classes with the corresponding date.\nTechnical assignments may be in any of the 3 sections of before, during and afterclass.\nClick the link to the assignment. This will open the github classroom page, accept the assignment, wait a moment and refresh the page,\nclick the url link to the assignments repo page.\nclick the carrot on the green code button and copy the url to clipboard. Open VSCode terminal and cd into the directory where\nI keep my JTC assignments enter git clone and paste the url, enter. From VSCode file menu/ open folder/ select assignment folder/ \nwork the assignment until it runs as expected and passes the unit test from the main folder/ git status file names in red/ git add filename.py\n/git status file names in green main branch upto date/ git commit -m"add working assignment _name code"/ git push. return to assignment\nrepo on github to check for the green check indicating the unit test passed.\ncopy url once more and paste it into the assignment page on canvas.')
+print('In Canvas navigate to modules and open the Live Classes with the corresponding date.\nTechnical assignments may be in any of the 3 sections of before, during and afterclass.\nClick the link to the assignment. This will open the github classroom page, accept the assignment, wait a moment and refresh the page,\nclick the url link to the assignments repo page.\nclick the carrot on the green code button and copy the url to clipboard. Open VSCode terminal and cd into the directory where\nI keep my JTC assignments enter git clone and paste the url, enter. From VSCode file menu/ open folder/ select assignment folder/ \nwork the assignment until it runs as expected and passes the unit test from the main folder/ git status file names in red/ git add filename.py\n/git status file names in green main branch upto date/ git commit -m"add working assignment _name code"/ git push. return to assignment\nrepo on github to check for the green check indicating the unit test passed.\ncopy url once more and paste it into the assignment page on canvas.')
 
 
-#if __name__ == "__main__": # DO NOT MODIFY
-    #main() # DO NOT MODIFY
+if __name__ == "__main__": # DO NOT MODIFY
+    main() # DO NOT MODIFY
